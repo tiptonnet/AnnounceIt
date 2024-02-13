@@ -541,12 +541,6 @@ def read_data():
         print(str(E))
         pass
 
-
-update = CheckUpdate()
-if update:
-    print("Update available")
-    getupdate(update)
-
 print("Initializing com port")
 set_COM_port_settings(config[3])
 time.sleep(1)
