@@ -506,7 +506,8 @@ def CheckUpdate():
 BootCounter = 0
 def read_data():
     global BootCounter
-    m.setvolume(0)
+    filename = os.getcwd()+"/ready.wav"
+    PlayIt(filename)
     try:
         while 1:
             print("READING DATA")
