@@ -1,0 +1,1 @@
+2,120,U.S. Robotics,/dev/ttyACM0,0,0,4,2
